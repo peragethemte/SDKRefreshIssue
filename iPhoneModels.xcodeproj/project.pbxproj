@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62D8EEDF236719DB0015FF27 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D8EEDE236719DB0015FF27 /* NavigationController.swift */; };
 		62FFDB332365DB1B00CE74C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB322365DB1B00CE74C2 /* AppDelegate.swift */; };
 		62FFDB352365DB1B00CE74C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB342365DB1B00CE74C2 /* SceneDelegate.swift */; };
-		62FFDB372365DB1B00CE74C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB362365DB1B00CE74C2 /* ViewController.swift */; };
 		62FFDB3A2365DB1B00CE74C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FFDB382365DB1B00CE74C2 /* Main.storyboard */; };
 		62FFDB3C2365DB1C00CE74C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FFDB3B2365DB1C00CE74C2 /* Assets.xcassets */; };
 		62FFDB3F2365DB1C00CE74C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FFDB3D2365DB1C00CE74C2 /* LaunchScreen.storyboard */; };
+		62FFDB4C2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB4B2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift */; };
+		62FFDB4E2365DED500CE74C2 /* PhonesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB4D2365DED500CE74C2 /* PhonesTableViewController.swift */; };
+		62FFDB522365DEF800CE74C2 /* PhoneDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB512365DEF800CE74C2 /* PhoneDetailTableViewController.swift */; };
+		62FFDB542365E00700CE74C2 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB532365E00700CE74C2 /* Phone.swift */; };
+		62FFDB562365E14A00CE74C2 /* PhoneModels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62FFDB552365E14A00CE74C2 /* PhoneModels.plist */; };
+		62FFDB602366231F00CE74C2 /* PhonesPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB5F2366231F00CE74C2 /* PhonesPreviewViewModel.swift */; };
+		62FFDB622366233300CE74C2 /* PhonesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB612366233300CE74C2 /* PhonesViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6234508D236F5E8400AA4BAC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		62D8EEDE236719DB0015FF27 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		62FFDB2F2365DB1B00CE74C2 /* iPhoneModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FFDB322365DB1B00CE74C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62FFDB342365DB1B00CE74C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		62FFDB362365DB1B00CE74C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62FFDB392365DB1B00CE74C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62FFDB3B2365DB1C00CE74C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FFDB3E2365DB1C00CE74C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62FFDB402365DB1C00CE74C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FFDB4B2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesPreviewTableViewController.swift; sourceTree = "<group>"; };
+		62FFDB4D2365DED500CE74C2 /* PhonesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesTableViewController.swift; sourceTree = "<group>"; };
+		62FFDB512365DEF800CE74C2 /* PhoneDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDetailTableViewController.swift; sourceTree = "<group>"; };
+		62FFDB532365E00700CE74C2 /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		62FFDB552365E14A00CE74C2 /* PhoneModels.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneModels.plist; sourceTree = "<group>"; };
+		62FFDB5F2366231F00CE74C2 /* PhonesPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesPreviewViewModel.swift; sourceTree = "<group>"; };
+		62FFDB612366233300CE74C2 /* PhonesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62D8EEDD236719CD0015FF27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62D8EEDE236719DB0015FF27 /* NavigationController.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		62FFDB262365DB1B00CE74C2 = {
 			isa = PBXGroup;
 			children = (
 				62FFDB312365DB1B00CE74C2 /* iPhoneModels */,
 				62FFDB302365DB1B00CE74C2 /* Products */,
+				62FFDB572365E51400CE74C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,67 @@
 			children = (
 				62FFDB322365DB1B00CE74C2 /* AppDelegate.swift */,
 				62FFDB342365DB1B00CE74C2 /* SceneDelegate.swift */,
-				62FFDB362365DB1B00CE74C2 /* ViewController.swift */,
-				62FFDB382365DB1B00CE74C2 /* Main.storyboard */,
-				62FFDB3B2365DB1C00CE74C2 /* Assets.xcassets */,
-				62FFDB3D2365DB1C00CE74C2 /* LaunchScreen.storyboard */,
-				62FFDB402365DB1C00CE74C2 /* Info.plist */,
+				62FFDB462365DB3000CE74C2 /* Supporting Files */,
+				62D8EEDD236719CD0015FF27 /* Extensions */,
+				62FFDB472365DB5700CE74C2 /* Models */,
+				62FFDB482365DB5F00CE74C2 /* ViewControllers */,
+				62FFDB492365DB6500CE74C2 /* ViewModels */,
+				62FFDB4A2365DB9700CE74C2 /* Views */,
 			);
 			path = iPhoneModels;
+			sourceTree = "<group>";
+		};
+		62FFDB462365DB3000CE74C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62FFDB3B2365DB1C00CE74C2 /* Assets.xcassets */,
+				62FFDB402365DB1C00CE74C2 /* Info.plist */,
+				62FFDB552365E14A00CE74C2 /* PhoneModels.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62FFDB472365DB5700CE74C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62FFDB532365E00700CE74C2 /* Phone.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		62FFDB482365DB5F00CE74C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62FFDB512365DEF800CE74C2 /* PhoneDetailTableViewController.swift */,
+				62FFDB4B2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift */,
+				62FFDB4D2365DED500CE74C2 /* PhonesTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		62FFDB492365DB6500CE74C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				62FFDB5F2366231F00CE74C2 /* PhonesPreviewViewModel.swift */,
+				62FFDB612366233300CE74C2 /* PhonesViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		62FFDB4A2365DB9700CE74C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62FFDB3D2365DB1C00CE74C2 /* LaunchScreen.storyboard */,
+				62FFDB382365DB1B00CE74C2 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		62FFDB572365E51400CE74C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +167,7 @@
 				62FFDB2B2365DB1B00CE74C2 /* Sources */,
 				62FFDB2C2365DB1B00CE74C2 /* Frameworks */,
 				62FFDB2D2365DB1B00CE74C2 /* Resources */,
+				6234508D236F5E8400AA4BAC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62FFDB3F2365DB1C00CE74C2 /* LaunchScreen.storyboard in Resources */,
+				62FFDB562365E14A00CE74C2 /* PhoneModels.plist in Resources */,
 				62FFDB3C2365DB1C00CE74C2 /* Assets.xcassets in Resources */,
 				62FFDB3A2365DB1B00CE74C2 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62FFDB372365DB1B00CE74C2 /* ViewController.swift in Sources */,
 				62FFDB332365DB1B00CE74C2 /* AppDelegate.swift in Sources */,
+				62FFDB622366233300CE74C2 /* PhonesViewModel.swift in Sources */,
 				62FFDB352365DB1B00CE74C2 /* SceneDelegate.swift in Sources */,
+				62FFDB4E2365DED500CE74C2 /* PhonesTableViewController.swift in Sources */,
+				62D8EEDF236719DB0015FF27 /* NavigationController.swift in Sources */,
+				62FFDB602366231F00CE74C2 /* PhonesPreviewViewModel.swift in Sources */,
+				62FFDB4C2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift in Sources */,
+				62FFDB542365E00700CE74C2 /* Phone.swift in Sources */,
+				62FFDB522365DEF800CE74C2 /* PhoneDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +383,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iPhoneModels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandregiguere.iPhoneModels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +404,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iPhoneModels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandregiguere.iPhoneModels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
