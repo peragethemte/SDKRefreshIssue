@@ -12,13 +12,26 @@ import SAPFiori
 class PhonesPreviewTableViewController: UITableViewController {
     
     let viewModel = PhonesPreviewViewModel()
+	let refreshControl1 = UIRefreshControl()
+
     
     // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureTableView()
-    }
+    
+		refreshControl1.addTarget(self, action: #selector(refresh), for: .valueChanged)
+		refreshControl1.tintColor = .white
+		tableView.refreshControl = refreshControl1
+	}
+	
+	@objc func refresh() {
+		
+		DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+			self.refreshControl1.endRefreshing()
+		}
+	}
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) { }
     

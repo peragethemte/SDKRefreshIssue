@@ -17,6 +17,8 @@ class PhonesTableViewController: UITableViewController {
     // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+		
+		navigationItem.largeTitleDisplayMode = .never
         
         configureTableView()
         
@@ -25,14 +27,13 @@ class PhonesTableViewController: UITableViewController {
         configureNavigationBar()
 		
 		refreshControl1.addTarget(self, action: #selector(refresh), for: .valueChanged)
-		refreshControl1.tintColor = .white
 		tableView.refreshControl = refreshControl1
     }
     
 	
 	@objc func refresh() {
 		
-		DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+		DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
 			self.refreshControl1.endRefreshing()
 		}
 	}

@@ -26,6 +26,7 @@
 		A311E1622548074E00AE4A07 /* SAPFiori.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15D2548074E00AE4A07 /* SAPFiori.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A311E1632548074E00AE4A07 /* SAPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15E2548074E00AE4A07 /* SAPFoundation.xcframework */; };
 		A311E1642548074E00AE4A07 /* SAPFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15E2548074E00AE4A07 /* SAPFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3DA847625480FE900BC8BE6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DA847525480FE900BC8BE6 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,7 @@
 		A3940B3124F58DB9001EA100 /* SAPFiori.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFiori.xcframework; path = "../../SAP Fiori iOS SDK/SAPFiori.xcframework"; sourceTree = "<group>"; };
 		A3940B3224F58DB9001EA100 /* SAPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = "../../SAP Fiori iOS SDK/SAPFoundation.xcframework"; sourceTree = "<group>"; };
 		A3940B3324F58DB9001EA100 /* SAPCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = "../../SAP Fiori iOS SDK/SAPCommon.xcframework"; sourceTree = "<group>"; };
+		A3DA847525480FE900BC8BE6 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				62FFDB512365DEF800CE74C2 /* PhoneDetailTableViewController.swift */,
 				62FFDB4B2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift */,
+				A3DA847525480FE900BC8BE6 /* NewViewController.swift */,
 				62FFDB4D2365DED500CE74C2 /* PhonesTableViewController.swift */,
 			);
 			name = ViewControllers;
@@ -261,6 +264,7 @@
 				62D8EEDF236719DB0015FF27 /* NavigationController.swift in Sources */,
 				62FFDB602366231F00CE74C2 /* PhonesPreviewViewModel.swift in Sources */,
 				62FFDB4C2365DEA100CE74C2 /* PhonesPreviewTableViewController.swift in Sources */,
+				A3DA847625480FE900BC8BE6 /* NewViewController.swift in Sources */,
 				62FFDB542365E00700CE74C2 /* Phone.swift in Sources */,
 				62FFDB522365DEF800CE74C2 /* PhoneDetailTableViewController.swift in Sources */,
 			);
