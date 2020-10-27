@@ -12,6 +12,7 @@ import SAPFiori
 class PhonesTableViewController: UITableViewController {
     
     let viewModel = PhonesViewModel()
+	let refreshControl1 = UIRefreshControl()
     
     // MARK: Lifecycle
     override func viewDidLoad() {
@@ -22,8 +23,20 @@ class PhonesTableViewController: UITableViewController {
         configureSearchController()
         
         configureNavigationBar()
+		
+		refreshControl1.addTarget(self, action: #selector(refresh), for: .valueChanged)
+		refreshControl1.tintColor = .white
+		tableView.refreshControl = refreshControl1
     }
     
+	
+	@objc func refresh() {
+		
+		DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+			self.refreshControl1.endRefreshing()
+		}
+	}
+	
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) { }
     
     // MARK: UITableViewDataSource

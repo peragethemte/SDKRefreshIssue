@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,15 +20,24 @@
 		62FFDB562365E14A00CE74C2 /* PhoneModels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62FFDB552365E14A00CE74C2 /* PhoneModels.plist */; };
 		62FFDB602366231F00CE74C2 /* PhonesPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB5F2366231F00CE74C2 /* PhonesPreviewViewModel.swift */; };
 		62FFDB622366233300CE74C2 /* PhonesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FFDB612366233300CE74C2 /* PhonesViewModel.swift */; };
+		A311E15F2548074E00AE4A07 /* SAPCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15C2548074E00AE4A07 /* SAPCommon.xcframework */; };
+		A311E1602548074E00AE4A07 /* SAPCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15C2548074E00AE4A07 /* SAPCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A311E1612548074E00AE4A07 /* SAPFiori.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15D2548074E00AE4A07 /* SAPFiori.xcframework */; };
+		A311E1622548074E00AE4A07 /* SAPFiori.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15D2548074E00AE4A07 /* SAPFiori.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A311E1632548074E00AE4A07 /* SAPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15E2548074E00AE4A07 /* SAPFoundation.xcframework */; };
+		A311E1642548074E00AE4A07 /* SAPFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A311E15E2548074E00AE4A07 /* SAPFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6234508D236F5E8400AA4BAC /* Embed Frameworks */ = {
+		A311E1652548074E00AE4A07 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A311E1642548074E00AE4A07 /* SAPFoundation.xcframework in Embed Frameworks */,
+				A311E1622548074E00AE4A07 /* SAPFiori.xcframework in Embed Frameworks */,
+				A311E1602548074E00AE4A07 /* SAPCommon.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +60,12 @@
 		62FFDB552365E14A00CE74C2 /* PhoneModels.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneModels.plist; sourceTree = "<group>"; };
 		62FFDB5F2366231F00CE74C2 /* PhonesPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesPreviewViewModel.swift; sourceTree = "<group>"; };
 		62FFDB612366233300CE74C2 /* PhonesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesViewModel.swift; sourceTree = "<group>"; };
+		A311E15C2548074E00AE4A07 /* SAPCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = "../../SDK/SAP Fiori iOS SDK/SAPCommon.xcframework"; sourceTree = "<group>"; };
+		A311E15D2548074E00AE4A07 /* SAPFiori.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFiori.xcframework; path = "../../SDK/SAP Fiori iOS SDK/SAPFiori.xcframework"; sourceTree = "<group>"; };
+		A311E15E2548074E00AE4A07 /* SAPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = "../../SDK/SAP Fiori iOS SDK/SAPFoundation.xcframework"; sourceTree = "<group>"; };
+		A3940B3124F58DB9001EA100 /* SAPFiori.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFiori.xcframework; path = "../../SAP Fiori iOS SDK/SAPFiori.xcframework"; sourceTree = "<group>"; };
+		A3940B3224F58DB9001EA100 /* SAPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = "../../SAP Fiori iOS SDK/SAPFoundation.xcframework"; sourceTree = "<group>"; };
+		A3940B3324F58DB9001EA100 /* SAPCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = "../../SAP Fiori iOS SDK/SAPCommon.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A311E1632548074E00AE4A07 /* SAPFoundation.xcframework in Frameworks */,
+				A311E1612548074E00AE4A07 /* SAPFiori.xcframework in Frameworks */,
+				A311E15F2548074E00AE4A07 /* SAPCommon.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +171,12 @@
 		62FFDB572365E51400CE74C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A311E15C2548074E00AE4A07 /* SAPCommon.xcframework */,
+				A311E15D2548074E00AE4A07 /* SAPFiori.xcframework */,
+				A311E15E2548074E00AE4A07 /* SAPFoundation.xcframework */,
+				A3940B3324F58DB9001EA100 /* SAPCommon.xcframework */,
+				A3940B3124F58DB9001EA100 /* SAPFiori.xcframework */,
+				A3940B3224F58DB9001EA100 /* SAPFoundation.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +191,7 @@
 				62FFDB2B2365DB1B00CE74C2 /* Sources */,
 				62FFDB2C2365DB1B00CE74C2 /* Frameworks */,
 				62FFDB2D2365DB1B00CE74C2 /* Resources */,
-				6234508D236F5E8400AA4BAC /* Embed Frameworks */,
+				A311E1652548074E00AE4A07 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +209,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Alexandre Giguere";
 				TargetAttributes = {
 					62FFDB2E2365DB1B00CE74C2 = {
@@ -290,6 +314,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -350,6 +375,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

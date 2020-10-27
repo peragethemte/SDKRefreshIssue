@@ -2,7 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-    <!-- iPhone 11 Pro Max -->
 	<dict>
 		<key>capacity</key>
 		<array>
@@ -10,19 +9,19 @@
 			<integer>256</integer>
 			<integer>512</integer>
 		</array>
-        <key>colors</key>
-        <array>
-            <string>Silver</string>
-            <string>Space grey</string>
-            <string>Gold</string>
-            <string>Midnight green</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A2161</string>
-            <string>A2220</string>
-            <string>A2218</string>
-        </array>
+		<key>colors</key>
+		<array>
+			<string>Silver</string>
+			<string>Space grey</string>
+			<string>Gold</string>
+			<string>Midnight green</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A2161</string>
+			<string>A2220</string>
+			<string>A2218</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 11 Pro Max</string>
 		<key>yearIntroduced</key>
@@ -30,28 +29,26 @@
 		<key>imageName</key>
 		<string>iPhone11ProMax</string>
 	</dict>
-    
-    <!-- iPhone 11 Pro -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>256</integer>
-            <integer>512</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Silver</string>
-            <string>Space grey</string>
-            <string>Gold</string>
-            <string>Midnight green</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A2160</string>
-            <string>A2217</string>
-            <string>A2215</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>256</integer>
+			<integer>512</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Silver</string>
+			<string>Space grey</string>
+			<string>Gold</string>
+			<string>Midnight green</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A2160</string>
+			<string>A2217</string>
+			<string>A2215</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 11 Pro</string>
 		<key>yearIntroduced</key>
@@ -59,30 +56,28 @@
 		<key>imageName</key>
 		<string>iPhone11Pro</string>
 	</dict>
-    
-    <!-- iPhone 11 -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>128</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Purple</string>
-            <string>Green</string>
-            <string>Yellow</string>
-            <string>Black</string>
-            <string>White</string>
-            <string>(PRODUCT)RED</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A2111</string>
-            <string>A2223</string>
-            <string>A2221</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>128</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Purple</string>
+			<string>Green</string>
+			<string>Yellow</string>
+			<string>Black</string>
+			<string>White</string>
+			<string>(PRODUCT)RED</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A2111</string>
+			<string>A2223</string>
+			<string>A2221</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 11</string>
 		<key>yearIntroduced</key>
@@ -90,29 +85,27 @@
 		<key>imageName</key>
 		<string>iPhone11</string>
 	</dict>
-    
-    <!-- iPhone XS Max -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>256</integer>
-            <integer>512</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Silver</string>
-            <string>Space grey</string>
-            <string>Gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1921</string>
-            <string>A2101</string>
-            <string>A2102</string>
-            <string>A2103</string>
-            <string>A2104</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>256</integer>
+			<integer>512</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Silver</string>
+			<string>Space grey</string>
+			<string>Gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1921</string>
+			<string>A2101</string>
+			<string>A2102</string>
+			<string>A2103</string>
+			<string>A2104</string>
+		</array>
 		<key>name</key>
 		<string>iPhone XS Max</string>
 		<key>yearIntroduced</key>
@@ -120,29 +113,27 @@
 		<key>imageName</key>
 		<string>iPhoneXSMax</string>
 	</dict>
-    
-    <!-- iPhone XS -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>256</integer>
-            <integer>512</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Silver</string>
-            <string>Space grey</string>
-            <string>Gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1920</string>
-            <string>A2097</string>
-            <string>A2098</string>
-            <string>A2099</string>
-            <string>A2100</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>256</integer>
+			<integer>512</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Silver</string>
+			<string>Space grey</string>
+			<string>Gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1920</string>
+			<string>A2097</string>
+			<string>A2098</string>
+			<string>A2099</string>
+			<string>A2100</string>
+		</array>
 		<key>name</key>
 		<string>iPhone XS</string>
 		<key>yearIntroduced</key>
@@ -150,32 +141,30 @@
 		<key>imageName</key>
 		<string>iPhoneXS</string>
 	</dict>
-    
-    <!-- iPhone XR -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>128</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>White</string>
-            <string>Blue</string>
-            <string>Yellow</string>
-            <string>Coral</string>
-            <string>(PRODUCT)RED</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1984</string>
-            <string>A2105</string>
-            <string>A2106</string>
-            <string>A2107</string>
-            <string>A2108</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>128</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>White</string>
+			<string>Blue</string>
+			<string>Yellow</string>
+			<string>Coral</string>
+			<string>(PRODUCT)RED</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1984</string>
+			<string>A2105</string>
+			<string>A2106</string>
+			<string>A2107</string>
+			<string>A2108</string>
+		</array>
 		<key>name</key>
 		<string>iPhone XR</string>
 		<key>yearIntroduced</key>
@@ -183,25 +172,23 @@
 		<key>imageName</key>
 		<string>iPhoneXR</string>
 	</dict>
-    
-    <!-- iPhone X -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Silver</string>
-            <string>Space grey</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1865</string>
-            <string>A1901</string>
-            <string>A1902</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Silver</string>
+			<string>Space grey</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1865</string>
+			<string>A1901</string>
+			<string>A1902</string>
+		</array>
 		<key>name</key>
 		<string>iPhone X</string>
 		<key>yearIntroduced</key>
@@ -209,28 +196,26 @@
 		<key>imageName</key>
 		<string>iPhoneX</string>
 	</dict>
-    
-    <!-- iPhone 8 Plus -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>128</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Gold</string>
-            <string>Silver</string>
-            <string>Space grey</string>
-            <string>(PRODUCT)RED</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1864</string>
-            <string>A1897</string>
-            <string>A1898</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>128</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Gold</string>
+			<string>Silver</string>
+			<string>Space grey</string>
+			<string>(PRODUCT)RED</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1864</string>
+			<string>A1897</string>
+			<string>A1898</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 8 Plus</string>
 		<key>yearIntroduced</key>
@@ -238,28 +223,26 @@
 		<key>imageName</key>
 		<string>iPhone8Plus</string>
 	</dict>
-    
-    <!-- iPhone 8 -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>64</integer>
-            <integer>128</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Gold</string>
-            <string>Silver</string>
-            <string>Space grey</string>
-            <string>(PRODUCT)RED</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1863</string>
-            <string>A1905</string>
-            <string>A1906</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>64</integer>
+			<integer>128</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Gold</string>
+			<string>Silver</string>
+			<string>Space grey</string>
+			<string>(PRODUCT)RED</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1863</string>
+			<string>A1905</string>
+			<string>A1906</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 8</string>
 		<key>yearIntroduced</key>
@@ -267,29 +250,27 @@
 		<key>imageName</key>
 		<string>iPhone8</string>
 	</dict>
-    
-    <!-- iPhone 7 Plus -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>32</integer>
-            <integer>128</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>Jet back</string>
-            <string>Gold</string>
-            <string>Rose gold</string>
-            <string>(PRODUCT)RED</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1661</string>
-            <string>A1784</string>
-            <string>A1785</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>32</integer>
+			<integer>128</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>Jet back</string>
+			<string>Gold</string>
+			<string>Rose gold</string>
+			<string>(PRODUCT)RED</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1661</string>
+			<string>A1784</string>
+			<string>A1785</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 7 Plus</string>
 		<key>yearIntroduced</key>
@@ -297,29 +278,27 @@
 		<key>imageName</key>
 		<string>iPhone7Plus</string>
 	</dict>
-    
-    <!-- iPhone 7 -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>32</integer>
-            <integer>128</integer>
-            <integer>256</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>Jet back</string>
-            <string>Gold</string>
-            <string>Rose gold</string>
-            <string>(PRODUCT)RED</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1660</string>
-            <string>A1778</string>
-            <string>A1779</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>32</integer>
+			<integer>128</integer>
+			<integer>256</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>Jet back</string>
+			<string>Gold</string>
+			<string>Rose gold</string>
+			<string>(PRODUCT)RED</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1660</string>
+			<string>A1778</string>
+			<string>A1779</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 7</string>
 		<key>yearIntroduced</key>
@@ -327,29 +306,27 @@
 		<key>imageName</key>
 		<string>iPhone7</string>
 	</dict>
-    
-    <!-- iPhone 6s Plus -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-            <integer>128</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Space grey</string>
-            <string>Silver</string>
-            <string>Gold</string>
-            <string>Rose gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1634</string>
-            <string>A1687</string>
-            <string>A1699</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+			<integer>128</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Space grey</string>
+			<string>Silver</string>
+			<string>Gold</string>
+			<string>Rose gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1634</string>
+			<string>A1687</string>
+			<string>A1699</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 6s Plus</string>
 		<key>yearIntroduced</key>
@@ -357,29 +334,27 @@
 		<key>imageName</key>
 		<string>iPhone6sPlus</string>
 	</dict>
-    
-    <!-- iPhone 6s -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-            <integer>128</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Space grey</string>
-            <string>Silver</string>
-            <string>Gold</string>
-            <string>Rose gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1633</string>
-            <string>A1688</string>
-            <string>A1700</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+			<integer>128</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Space grey</string>
+			<string>Silver</string>
+			<string>Gold</string>
+			<string>Rose gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1633</string>
+			<string>A1688</string>
+			<string>A1700</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 6s</string>
 		<key>yearIntroduced</key>
@@ -387,27 +362,25 @@
 		<key>imageName</key>
 		<string>iPhone6s</string>
 	</dict>
-    
-    <!-- iPhone 6 Plus -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>64</integer>
-            <integer>128</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Space grey</string>
-            <string>Silver</string>
-            <string>Gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1522</string>
-            <string>A1524</string>
-            <string>A1593</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>64</integer>
+			<integer>128</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Space grey</string>
+			<string>Silver</string>
+			<string>Gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1522</string>
+			<string>A1524</string>
+			<string>A1593</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 6 Plus</string>
 		<key>yearIntroduced</key>
@@ -415,28 +388,26 @@
 		<key>imageName</key>
 		<string>iPhone6Plus</string>
 	</dict>
-    
-    <!-- iPhone 6 -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-            <integer>128</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Space grey</string>
-            <string>Silver</string>
-            <string>Gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1549</string>
-            <string>A1586</string>
-            <string>A1589</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+			<integer>128</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Space grey</string>
+			<string>Silver</string>
+			<string>Gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1549</string>
+			<string>A1586</string>
+			<string>A1589</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 6</string>
 		<key>yearIntroduced</key>
@@ -444,29 +415,27 @@
 		<key>imageName</key>
 		<string>iPhone6</string>
 	</dict>
-    
-    <!-- iPhone SE -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-            <integer>128</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Space gray</string>
-            <string>Silver</string>
-            <string>Gold</string>
-            <string>Rose gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1723</string>
-            <string>A1662</string>
-            <string>A1724</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+			<integer>128</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Space gray</string>
+			<string>Silver</string>
+			<string>Gold</string>
+			<string>Rose gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1723</string>
+			<string>A1662</string>
+			<string>A1724</string>
+		</array>
 		<key>name</key>
 		<string>iPhone SE</string>
 		<key>yearIntroduced</key>
@@ -474,30 +443,28 @@
 		<key>imageName</key>
 		<string>iPhoneSE</string>
 	</dict>
-    
-    <!-- iPhone 5s -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Space grey</string>
-            <string>Silver</string>
-            <string>Gold</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1453</string>
-            <string>A1457</string>
-            <string>A1518</string>
-            <string>A1528</string>
-            <string>A1530</string>
-            <string>A1533</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Space grey</string>
+			<string>Silver</string>
+			<string>Gold</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1453</string>
+			<string>A1457</string>
+			<string>A1518</string>
+			<string>A1528</string>
+			<string>A1530</string>
+			<string>A1533</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 5s</string>
 		<key>yearIntroduced</key>
@@ -505,31 +472,29 @@
 		<key>imageName</key>
 		<string>iPhone5s</string>
 	</dict>
-    
-    <!-- iPhone 5c -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>8</integer>
-            <integer>16</integer>
-            <integer>32</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>White</string>
-            <string>Blue</string>
-            <string>Pink</string>
-            <string>Green</string>
-            <string>Yellow</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1456</string>
-            <string>A1507</string>
-            <string>A1516</string>
-            <string>A1529</string>
-            <string>A1532</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>8</integer>
+			<integer>16</integer>
+			<integer>32</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>White</string>
+			<string>Blue</string>
+			<string>Pink</string>
+			<string>Green</string>
+			<string>Yellow</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1456</string>
+			<string>A1507</string>
+			<string>A1516</string>
+			<string>A1529</string>
+			<string>A1532</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 5c</string>
 		<key>yearIntroduced</key>
@@ -537,26 +502,24 @@
 		<key>imageName</key>
 		<string>iPhone5c</string>
 	</dict>
-    
-    <!-- iPhone 5 -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>White</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1428</string>
-            <string>A1429</string>
-            <string>A1442</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>White</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1428</string>
+			<string>A1429</string>
+			<string>A1442</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 5</string>
 		<key>yearIntroduced</key>
@@ -564,26 +527,24 @@
 		<key>imageName</key>
 		<string>iPhone5</string>
 	</dict>
-    
-    <!-- iPhone 4s -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>8</integer>
-            <integer>16</integer>
-            <integer>32</integer>
-            <integer>64</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>White</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1431</string>
-            <string>A1387</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>8</integer>
+			<integer>16</integer>
+			<integer>32</integer>
+			<integer>64</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>White</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1431</string>
+			<string>A1387</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 4s</string>
 		<key>yearIntroduced</key>
@@ -591,25 +552,23 @@
 		<key>imageName</key>
 		<string>iPhone4s</string>
 	</dict>
-    
-    <!-- iPhone 4 -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>8</integer>
-            <integer>16</integer>
-            <integer>32</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>White</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1349</string>
-            <string>A1332</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>8</integer>
+			<integer>16</integer>
+			<integer>32</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>White</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1349</string>
+			<string>A1332</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 4</string>
 		<key>yearIntroduced</key>
@@ -617,25 +576,23 @@
 		<key>imageName</key>
 		<string>iPhone4</string>
 	</dict>
-    
-    <!-- iPhone 3GS -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>8</integer>
-            <integer>16</integer>
-            <integer>32</integer>
-        </array>
-        <key>colors</key>
-        <array>
-            <string>Black</string>
-            <string>White</string>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1325</string>
-            <string>A1303</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>8</integer>
+			<integer>16</integer>
+			<integer>32</integer>
+		</array>
+		<key>colors</key>
+		<array>
+			<string>Black</string>
+			<string>White</string>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1325</string>
+			<string>A1303</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 3GS</string>
 		<key>yearIntroduced</key>
@@ -643,19 +600,17 @@
 		<key>imageName</key>
 		<string>iPhone3GS</string>
 	</dict>
-    
-    <!-- iPhone 3G -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>8</integer>
-            <integer>16</integer>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1324</string>
-            <string>A1241</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>8</integer>
+			<integer>16</integer>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1324</string>
+			<string>A1241</string>
+		</array>
 		<key>name</key>
 		<string>iPhone 3G</string>
 		<key>yearIntroduced</key>
@@ -663,19 +618,17 @@
 		<key>imageName</key>
 		<string>iPhone3G</string>
 	</dict>
-    
-    <!-- iPhone -->
 	<dict>
-        <key>capacity</key>
-        <array>
-            <integer>4</integer>
-            <integer>8</integer>
-            <integer>16</integer>
-        </array>
-        <key>modelNumbers</key>
-        <array>
-            <string>A1203</string>
-        </array>
+		<key>capacity</key>
+		<array>
+			<integer>4</integer>
+			<integer>8</integer>
+			<integer>16</integer>
+		</array>
+		<key>modelNumbers</key>
+		<array>
+			<string>A1203</string>
+		</array>
 		<key>name</key>
 		<string>iPhone</string>
 		<key>yearIntroduced</key>
